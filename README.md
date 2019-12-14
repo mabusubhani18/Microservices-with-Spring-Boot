@@ -27,14 +27,14 @@ Make best use of HTTP:
 
 Key abstraction - Resource
 
- >A resource has an URI (Uniform Resource Identifier)
- >/users/Ranga/todos/1
- >/users/Ranga/todos
- >/users/Ranga
- >A resource can have different representations
- >XML
- >HTML
- >JSON
+ 1. A resource has an URI (Uniform Resource Identifier)
+ 2. /users/Ranga/todos/1
+ 3. /users/Ranga/todos
+ 4. /users/Ranga
+ 5. A resource can have different representations
+ 6. XML
+ 7. HTML
+ 8. JSON
  
 Example
 
