@@ -103,20 +103,20 @@ Restful Web Services with Spring Boot
 
 You will learn
 
-What is a RESTful Web Service?
-How to implement RESTful Web Services with Spring and Spring Boot?
-What are the best practices in designing RESTful Web Services?
-How to design Resources and GET, POST and DELETE operations?
-How to implement Validation for RESTful Web Services?
-How to implement Exception Handling for RESTful Web Services?
-What is HATEOAS? How to implement HATEOAS for a Resource?
-What are the different approach in versioning RESTful Services?
-How to use Postman to execute RESTful Service Requests?
-How to implement basic authentication with Spring Security?
-How to implement filtering for RESTful Services?
-How to monitor RESTful Services with Spring Boot Actuator?
-How to document RESTful Web Services with Swagger?
-How to connect RESTful Services to a backend with JPA?
+1. What is a RESTful Web Service?
+2. How to implement RESTful Web Services with Spring and Spring Boot?
+3. What are the best practices in designing RESTful Web Services?
+4. How to design Resources and GET, POST and DELETE operations?
+5. How to implement Validation for RESTful Web Services?
+6. How to implement Exception Handling for RESTful Web Services?
+7. What is HATEOAS? How to implement HATEOAS for a Resource?
+8. What are the different approach in versioning RESTful Services?
+9. How to use Postman to execute RESTful Service Requests?
+10. How to implement basic authentication with Spring Security?
+11. How to implement filtering for RESTful Services?
+12. How to monitor RESTful Services with Spring Boot Actuator?
+13. How to document RESTful Web Services with Swagger?
+14. How to connect RESTful Services to a backend with JPA?
 
 Useful Links
 
@@ -184,7 +184,8 @@ H2-Console
 
 http://localhost:8080/h2-console
 
-Error in the Log
+Error in the Log:
+
 ##############################################
 Resolved exception caused by Handler execution:
 org.springframework.http.converter.HttpMessageNotWritableEx
@@ -199,26 +200,20 @@ This happened because there were no getters in HelloWorldBean class
 
 Questions to Answer
 
-What is dispatcher servlet?
-Who is configuring dispatcher servlet?
-What does dispatcher servlet do?
-How does the HelloWorldBean object get converted to JSON?
-Who is configuring the error mapping?
-Mapping servlet: ‘dispatcherServlet’ to [/]
-Mapped “{[/hello-world],methods=[GET]}” onto public java.lang.String
-com.in28minutes.rest.webservices.restfulwebservices.HelloWorldController.helloW
-orld()
-Mapped “{[/hello-world-bean],methods=[GET]}” onto public
-com.in28minutes.rest.webservices.restfulwebservices.HelloWorldBean
-com.in28minutes.rest.webservices.restfulwebservices.HelloWorldController.helloW
-orldBean()
-Mapped “{[/error]}” onto public
-org.springframework.http.ResponseEntity<java.util.Map<java.lang.String,
-java.lang.Object»
-org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.err
-or(javax.servlet.http.HttpServletRequest)
-Mapped “{[/error],produces=[text/html]}” onto public
-org.springframework.web.servlet.ModelAndView
-org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.err
-orHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletRespons
-e)
+1. What is dispatcher servlet?
+2. Who is configuring dispatcher servlet?
+3. What does dispatcher servlet do?
+4. How does the HelloWorldBean object get converted to JSON?
+5. Who is configuring the error mapping?
+6. Mapping servlet: ‘dispatcherServlet’ to [/]
+7. Mapped “{[/hello-world],methods=[GET]}” onto public java.lang.String
+   com.in28minutes.rest.webservices.restfulwebservices.HelloWorldController.helloWorld()
+8. Mapped “{[/hello-world-bean],methods=[GET]}” onto public
+   com.in28minutes.rest.webservices.restfulwebservices.HelloWorldBean
+   com.in28minutes.rest.webservices.restfulwebservices.HelloWorldController.helloWorldBean()
+9. Mapped “{[/error]}” onto public
+   org.springframework.http.ResponseEntity<java.util.Map<java.lang.String,java.lang.Object»
+   org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.err or(javax.servlet.http.HttpServletRequest)
+10. Mapped “{[/error],produces=[text/html]}” onto public org.springframework.web.servlet.ModelAndView
+    org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.err
+    orHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
