@@ -63,43 +63,43 @@ REST vs SOAP
 
 Restful Web Services with Spring Boot
 
-#Step 01 - Initializing a RESTful Services Project with Spring Boot
-#Step 02 - Understanding the RESTful Services we would create in this course
-#Step 03 - Creating a Hello World Service
-#Step 04 - Enhancing the Hello World Service to return a Bean
-#Step 05 - Quick Review of Spring Boot Auto Configuration and Dispatcher Servlet
-#Step 06 - Enhancing the Hello World Service with a Path Variable
-#Step 07 - Creating User Bean and User Service
-#Step 08 - Implementing GET Methods for User Resource
-#Step 09 - Implementing POST Method to create User Resource
-#Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location
-#Step 11 - Implementing Exception Handling - 404 Resource Not Found
-#Step 12 - Implementing Generic Exception Handling for all Resources
-#Step 13 - Exercise : User Post Resource and Exception Handling
-#Step 14 - Implementing DELETE Method to delete a User Resource
-#Step 15 - Implementing Validations for RESTful Services
-#Step 16 - Implementing HATEOAS for RESTful Services
-#Step 17 - Overview of Advanced RESTful Service Features
-#Step 18 - Internationalization for RESTful Services
-#Step 19 - Content Negotiation - Implementing Support for XML
-#Step 20 - Configuring Auto Generation of Swagger Documentation
-#Step 21 - Introduction to Swagger Documentation Format
-#Step 22 - Enhancing Swagger Documentation with Custom Annotations
-#Step 23 - Monitoring APIs with Spring Boot Actuator
-#Step 24 - Implementing Static Filtering for RESTful Service
-#Step 25 - Implementing Dynamic Filtering for RESTful Service
-#Step 26 - Versioning RESTful Services - Basic Approach with URIs
-#Step 27 - Versioning RESTful Services - Header and Content Negotiation Approach
-#Step 28 - Implementing Basic Authentication with Spring Security
-#Step 29 - Overview of Connecting RESTful Service to JPA
-#Step 30 - Creating User Entity and some test data
-#Step 31 - Updating GET methods on User Resource to use JPA
-#Step 32 - Updating POST and DELETE methods on User Resource to use JPA
-#Step 33 - Creating Post Entity and Many to One Relationship with User Entity
-#Step 34 - Implementing a GET service to retrieve all Posts of a User
-#Step 35 - Implementing a POST service to create a Post for a User
-#Step 36 - Richardson Maturity Model
-#Step 37 - RESTful Web Services - Best Practices
+1. Step 01 - Initializing a RESTful Services Project with Spring Boot
+2. Step 02 - Understanding the RESTful Services we would create in this course
+3. Step 03 - Creating a Hello World Service
+4. Step 04 - Enhancing the Hello World Service to return a Bean
+5. Step 05 - Quick Review of Spring Boot Auto Configuration and Dispatcher Servlet
+6. Step 06 - Enhancing the Hello World Service with a Path Variable
+7. Step 07 - Creating User Bean and User Service
+8. Step 08 - Implementing GET Methods for User Resource
+9. Step 09 - Implementing POST Method to create User Resource
+10. Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location
+11. Step 11 - Implementing Exception Handling - 404 Resource Not Found
+12. Step 12 - Implementing Generic Exception Handling for all Resources
+13. Step 13 - Exercise : User Post Resource and Exception Handling
+14. Step 14 - Implementing DELETE Method to delete a User Resource
+15. Step 15 - Implementing Validations for RESTful Services
+16. Step 16 - Implementing HATEOAS for RESTful Services
+17. Step 17 - Overview of Advanced RESTful Service Features
+18. Step 18 - Internationalization for RESTful Services
+19. Step 19 - Content Negotiation - Implementing Support for XML
+20. Step 20 - Configuring Auto Generation of Swagger Documentation
+21. Step 21 - Introduction to Swagger Documentation Format
+22. Step 22 - Enhancing Swagger Documentation with Custom Annotations
+23. Step 23 - Monitoring APIs with Spring Boot Actuator
+24. Step 24 - Implementing Static Filtering for RESTful Service
+25. Step 25 - Implementing Dynamic Filtering for RESTful Service
+26. Step 26 - Versioning RESTful Services - Basic Approach with URIs
+27. Step 27 - Versioning RESTful Services - Header and Content Negotiation Approach
+28. Step 28 - Implementing Basic Authentication with Spring Security
+29. Step 29 - Overview of Connecting RESTful Service to JPA
+30. Step 30 - Creating User Entity and some test data
+31. Step 31 - Updating GET methods on User Resource to use JPA
+32. Step 32 - Updating POST and DELETE methods on User Resource to use JPA
+33. Step 33 - Creating Post Entity and Many to One Relationship with User Entity
+34. Step 34 - Implementing a GET service to retrieve all Posts of a User
+35. Step 35 - Implementing a POST service to create a Post for a User
+36. Step 36 - Richardson Maturity Model
+37. Step 37 - RESTful Web Services - Best Practices
 
 You will learn
 
