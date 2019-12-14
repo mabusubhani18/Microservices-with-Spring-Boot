@@ -1,4 +1,5 @@
-# Microservices-with-Spring-Boot
+Microservices-with-Spring-Boot
+
 REST Full web Service with Spring Boot
 
 Introduction to Web Services
@@ -10,19 +11,27 @@ Introduction to Web Services
 6. SOAP vs RESTful Web Services
 
 SOAP: 
+
 >Format - SOAP XML Request - SOAP XML Response
+
 >Transport
+
   #OAP over MQ
+
   #SOAP over HTTP
+
 >Service Definition
-  #WSDL
+  
+   #WSDL
   
 REST(REpresentational State Transfer):
+
 Def: REST is a style of software architecture for distributed hypermedia systems.
 
 Make best use of HTTP:
 
 Key abstraction - Resource
+
  >A resource has an URI (Uniform Resource Identifier)
  >/users/Ranga/todos/1
  >/users/Ranga/todos
@@ -33,28 +42,34 @@ Key abstraction - Resource
  >JSON
  
 Example
+
 .Create a User - POST /users
 .Delete a User - DELETE /users/1
 .Get all Users - GET /users
 .Get one Users - GET /users/1
 
 REST
+
 >ata Exchange Format - No Restriction. JSON is popular
 >ransport
-  #Only HTTP
+  
+   #Only HTTP
   
 >Service Definition
- #No Standard. WADL/Swagger/…
+
+  #No Standard. WADL/Swagger/…
 
 REST vs SOAP
- #Restrictions vs Architectural Approach
- #Data Exchange Format
- #Service Definition
- #Transport
- #Ease of implementation
+ 
+  #Restrictions vs Architectural Approach
+  #Data Exchange Format
+  #Service Definition
+  #Transport
+  #Ease of implementation
 
 
 Restful Web Services with Spring Boot
+
 #Step 01 - Initializing a RESTful Services Project with Spring Boot
 #Step 02 - Understanding the RESTful Services we would create in this course
 #Step 03 - Creating a Hello World Service
@@ -94,6 +109,7 @@ Restful Web Services with Spring Boot
 #Step 37 - RESTful Web Services - Best Practices
 
 You will learn
+
 What is a RESTful Web Service?
 How to implement RESTful Web Services with Spring and Spring Boot?
 What are the best practices in designing RESTful Web Services?
@@ -110,42 +126,69 @@ How to document RESTful Web Services with Swagger?
 How to connect RESTful Services to a backend with JPA?
 
 Useful Links
+
 POSTMAN - http://www.getpostman.com
+
 Links from course examples
+
 Basic Resources
+
 http://localhost:8080/hello-world
 http://localhost:8080/hello-world-bean
 http://localhost:8080/hello-world/path-variable/Ranga
 http://localhost:8080/users/
 http://localhost:8080/users/1
+
 JPA Resources
+
 http://localhost:8080/jpa/users/
 http://localhost:8080/jpa/users/1
 http://localhost:8080/jpa/users/10001/posts
+
 Filtering
+
 http://localhost:8080/filtering
 http://localhost:8080/filtering-list
+
 Actuator
+
 http://localhost:8080/actuator
+
 Versioning
+
 http://localhost:8080/v1/person
 http://localhost:8080/v2/person
 http://localhost:8080/person/param
+
 params=[version=1]
+
 http://localhost:8080/person/param
+
 params=[version=2]
+
 http://localhost:8080/person/header
+
 headers=[X-API-VERSION=1]
+
 http://localhost:8080/person/header
+
 headers=[X-API-VERSION=2]
+
 http://localhost:8080/person/produces
+
 produces=[application/vnd.company.app-v1+json]
+
 http://localhost:8080/person/produces
+
 produces=[application/vnd.company.app-v2+json]
+
 Swagger
+
 http://localhost:8080/swagger-ui.html
 http://localhost:8080/v2/api-docs
+
 H2-Console
+
 http://localhost:8080/h2-console
 
 Error in the Log
@@ -158,9 +201,11 @@ class
 com.in28minutes.rest.webservices.restfulwebservices.HelloWo
 rldBean
 ##################################################
+
 This happened because there were no getters in HelloWorldBean class
 
 Questions to Answer
+
 What is dispatcher servlet?
 Who is configuring dispatcher servlet?
 What does dispatcher servlet do?
