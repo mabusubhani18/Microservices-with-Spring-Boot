@@ -38,29 +38,27 @@ Key abstraction - Resource
  
 Example
 
-.Create a User - POST /users
-.Delete a User - DELETE /users/1
-.Get all Users - GET /users
-.Get one Users - GET /users/1
+1. Create a User -  POST /users
+2. Delete a User -  DELETE /users/1
+3. Get all Users -  GET /users
+4. Get one Users -  GET /users/1
 
 REST
-
->ata Exchange Format - No Restriction. JSON is popular
->ransport
+1. Data Exchange Format - No Restriction. JSON is popular
+2. Transport - 
+   Only HTTP
   
-   #Only HTTP
-  
->Service Definition
+Service Definition
 
-  #No Standard. WADL/Swagger/…
+  1. No Standard. WADL/Swagger/…
 
 REST vs SOAP
  
-  #Restrictions vs Architectural Approach
-  #Data Exchange Format
-  #Service Definition
-  #Transport
-  #Ease of implementation
+  1. Restrictions vs Architectural Approach
+  2. Data Exchange Format
+  3. Service Definition
+  4. Transport
+  5. Ease of implementation
 
 
 Restful Web Services with Spring Boot
