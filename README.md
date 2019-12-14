@@ -10,17 +10,15 @@ Introduction to Web Services
 5. Introduction to RESTful Web Services
 6. SOAP vs RESTful Web Services
 
-SOAP: 
-
->Format - SOAP XML Request - SOAP XML Response
->Transport
-  #OAP over MQ 
-  #SOAP over HTTP 
->Service Definition  
-   #WSDL
+SOAP:
+#Format - SOAP XML Request - SOAP XML Response
+#Transport
+  OAP over MQ.   
+  SOAP over HTTP.  
+#Service Definition  
+  WSDL
    
-REST(REpresentational State Transfer):
-
+REST(REpresentational State Transfer):  
 Def: REST is a style of software architecture for distributed hypermedia systems.
 
 Make best use of HTTP:
